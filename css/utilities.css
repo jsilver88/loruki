@@ -74,18 +74,15 @@
 }
 
 .text-secondary {
-  background-color: var(--secondary-color);
-  color: #fff;
+  color: var(--secondary-color);
 }
 
 .text-dark {
-  background-color: var(--dark-color);
-  color: #fff;
+  color: var(--dark-color);
 }
 
 .text-light {
-  background-color: var(--light-color);
-  color: #333;
+  color: var(--light-color);
 }
 
 /* Text sizes */
