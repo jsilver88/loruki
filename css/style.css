@@ -261,8 +261,31 @@ pre {
 }
 
 /* Footer */
+.footer nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.footer ul li a {
+  padding-right: 10px;
+}
+
+.footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .footer .social a {
   margin: 0 10px;
+}
+
+.footer .social a:last-child {
+  margin: 0;
+}
+
+.footer .social a i {
+  font-size: 24px;
 }
 
 .fab {
@@ -363,6 +386,12 @@ pre {
 
   .footer {
     text-align: center;
+  }
+
+  .footer ul {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
   }
 
   .social {
